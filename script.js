@@ -21,7 +21,7 @@ class VerificaCPF {
     let cpfSoma = 0;
     let j = 0;
     let multiplicador = verificacao === 1 ? 10 : 11;
-    let index = verificacao === 1 ? 9 : 10;
+    const index = verificacao === 1 ? 9 : 10;
 
     if (!cpfLimpo) return;
 
